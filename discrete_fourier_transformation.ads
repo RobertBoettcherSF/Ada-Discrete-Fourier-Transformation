@@ -2,7 +2,7 @@
 -- Specification for the Discrete Fourier Transform algorithm and its variants.
 with Ada.Numerics.Complex_Types;
 
-package Discrete_Fourier_Transform is
+package Discrete_Fourier_Transformation is
    use Ada.Numerics.Complex_Types;
 
    -- Custom types for strong typing and algorithm-specific data
@@ -37,4 +37,4 @@ package Discrete_Fourier_Transform is
    -- Commonly used in image processing and spatial frequencies.
    function Forward_2D_DFT (Input : Complex_Matrix) return Complex_Matrix;
 
-end Discrete_Fourier_Transform;
+end Discrete_Fourier_Transformation;
