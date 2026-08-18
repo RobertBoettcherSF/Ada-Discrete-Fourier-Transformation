@@ -2,7 +2,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Assertions; use Ada.Assertions;
 with Ada.Numerics.Complex_Types; use Ada.Numerics.Complex_Types;
-with Discrete_Fourier_Transform; use Discrete_Fourier_Transform;
+with Discrete_Fourier_Transformation; use Discrete_Fourier_Transformation;
 
 procedure Tests is
 
