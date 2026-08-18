@@ -2,7 +2,7 @@
 -- Implementation of the DFT variants using O(N^2) direct sum definitions.
 with Ada.Numerics.Elementary_Functions;
 
-package body Discrete_Fourier_Transform is
+package body Discrete_Fourier_Transformation is
    use Ada.Numerics;
    use Ada.Numerics.Elementary_Functions;
 
@@ -126,4 +126,4 @@ package body Discrete_Fourier_Transform is
       return Result;
    end Forward_2D_DFT;
 
-end Discrete_Fourier_Transform;
+end Discrete_Fourier_Transformation;
