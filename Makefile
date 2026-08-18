@@ -7,7 +7,7 @@ BIN_DIR = bin
 
 all: $(BIN_DIR)/tests
 
-$(BIN_DIR)/tests: tests.adb discrete_fourier_transform.ads discrete_fourier_transform.adb
+$(BIN_DIR)/tests: tests.adb discrete_fourier_transformation.ads discrete_fourier_transformation.adb
 	mkdir -p $(OBJ_DIR) $(BIN_DIR)
 	$(GNAT) -P dft.gpr -p
 
